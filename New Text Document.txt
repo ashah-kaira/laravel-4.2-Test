@@ -1,0 +1,18 @@
+==== This  for sms ====
+http://smsc.a4add.com/api/smsapi.aspx?username=naresh123&password=naresh123&from=SMCLUB&to=9408773901&message=HiRohit
+
+==== signup=======
+{"Data":"{\"FirstName\":\"name\",\"LastName\":\"name\",\"Password\":\"Test123\",\"City\":\"Ahmedabd\",\"Mobile\":\"12346567890\",\"Email\":\"roh@mailinator.com\",\"UserID\":\"2\"}"}
+
+
+
+==== Login =========
+{"Data":"{\"IsSocial\":\"1\",\"Email\":\"rohit@mailinator.com\",\"IsVerified\":\"1\"}"}
+
+========  Forgot =========
+{"Data":"{\"Mobile\":\"0123456789\"}","Token":"c4ca4238a0b923820dcc509a6f75849b"}
+
+
+===== Verification json and url ====
+http://192.168.1.132/marketinsight/trunk/Website/public/index.php/otpverified
+ {"Data":"{\"UserID\":\"19\",\"OTP\":\"974951\"}"}
